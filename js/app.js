@@ -93,8 +93,9 @@
         ? item.authorList
         : [item.authors].filter(Boolean);
       const coFirstAuthors = new Set(item.coFirstAuthors || []);
+      const authorSeparator = typeof item.authorSeparator === "string" ? item.authorSeparator : ", ";
       authorList.forEach((author, index) => {
-        if (index > 0) citation.append(document.createTextNode(", "));
+        if (index > 0) citation.append(document.createTextNode(authorSeparator));
         const authorNode = author === "J. Chae"
           ? document.createElement("strong")
           : document.createElement("span");

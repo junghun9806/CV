@@ -73,6 +73,15 @@
       "year": ""
     },
     {
+      "title": "Effective time delay as a local bandwidth measure in biochemical networks",
+      "authors": "J. Chae and C.-M. Ghim",
+      "authorList": ["J. Chae", "C.-M. Ghim"],
+      "authorSeparator": " and ",
+      "coFirstAuthors": [],
+      "venue": "Under review",
+      "year": ""
+    },
+    {
       "title": "Enlightening the blind spot of the Michaelis–Menten rate law: The role of relaxation dynamics in molecular complex formation",
       "authors": "J. Chae, R. Lim, T. L. P. Martin, C.-M. Ghim, and P.-J. Kim",
       "authorList": ["J. Chae", "R. Lim", "T. L. P. Martin", "C.-M. Ghim", "P.-J. Kim"],
@@ -190,6 +199,13 @@
       "category": "publication",
       "keywords": ["under review", "manuscript", "20 million papers patents", "genetic research", "innovation", "bibliometric", "심사 중", "유전 연구", "논문 특허"],
       "text": "A manuscript titled “Warning signals for the long-term innovative potential of genetic research based on 20 million papers and patents” is listed in the CV as under review. The listed authors begin with J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, and G. Jung, followed by additional authors. The CV marks Chae, Kim, Jung, Jeong, and Lim as co-first authors. It must not be described as a published paper."
+    },
+    {
+      "id": "publication-under-review-002",
+      "title": "Effective time delay as a local bandwidth measure in biochemical networks",
+      "category": "publication",
+      "keywords": ["under review", "manuscript", "effective time delay", "local bandwidth", "biochemical networks", "J. Chae", "C.-M. Ghim", "심사 중", "생화학 네트워크"],
+      "text": "A manuscript titled “Effective time delay as a local bandwidth measure in biochemical networks” by J. Chae and C.-M. Ghim is under review. It must not be described as a published paper."
     },
     {
       "id": "project-metabolic-network-001",
