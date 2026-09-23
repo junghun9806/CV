@@ -26,6 +26,23 @@
     });
   };
 
+  const renderEmails = (emails = []) => {
+    const target = document.querySelector("[data-profile-emails]");
+    if (!target || !Array.isArray(emails) || emails.length === 0) return;
+
+    const label = document.createElement("span");
+    label.textContent = "E-mail:";
+    target.replaceChildren(label, document.createTextNode(" "));
+
+    emails.forEach((email, index) => {
+      if (index > 0) target.append(document.createTextNode("; "));
+      const link = document.createElement("a");
+      link.href = `mailto:${email}`;
+      link.textContent = email;
+      target.append(link);
+    });
+  };
+
   const renderResearch = (items = []) => {
     const target = document.querySelector("#research-list");
     if (!target || !items.length) return;
@@ -153,7 +170,7 @@
       applyLink("github", links.github);
       applyLink("scholar", links.scholar);
       applyLink("orcid", links.orcid);
-      applyLink("email", profile.email ? `mailto:${profile.email}` : "");
+      renderEmails(profile.emails || (profile.email ? [profile.email] : []));
       renderResearch(data.research);
       renderProjects(data.projects);
       renderPublications(data.publications);
