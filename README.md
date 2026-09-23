@@ -80,7 +80,7 @@ git push -u origin main
 4. 다음 설정을 입력합니다.
 
 ```text
-Worker name:      CV
+Worker name:      cv
 Production branch: main
 Root directory:  비워 둠 (저장소 루트)
 Build command:   비워 둠
@@ -92,7 +92,7 @@ Deploy command 칸에 `npx wrangler preview`가 자동으로 들어가 있다면
 
 5. **Save and Deploy**를 누릅니다.
 
-`wrangler.jsonc`의 Worker 이름과 Cloudflare의 Worker 이름은 반드시 같아야 합니다. 현재 두 이름은 모두 `CV`입니다. 이후 `main` 브랜치에 push할 때마다 자동 배포됩니다.
+`wrangler.jsonc`의 Worker 이름과 Cloudflare의 내부 Worker 이름은 반드시 같아야 합니다. 현재 설정 이름은 소문자 `cv`이며 대시보드에서는 `CV`로 표시될 수 있습니다. 이후 `main` 브랜치에 push할 때마다 자동 배포됩니다.
 
 ## 3. 로컬 확인
 
