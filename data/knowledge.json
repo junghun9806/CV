@@ -4,7 +4,7 @@
     "disciplines": "Physics · Computational Biology · Dynamical Systems",
     "introduction": "I study complex biological systems through quantitative modeling, data analysis, and hands-on experimentation, with work spanning enzyme kinetics, circadian dynamics, microbiome metabolism, and collective behavior.",
     "currentFocus": "Metabolic networks and systems biology",
-    "currentFocusDetail": "Constraint-based modeling of Segatella copri, alongside hands-on experiments in the Yong-Su Jin Lab at UIUC.",
+    "currentFocusDetail": "Constraint-based modeling of Segatella copri, an anaerobic microbe, alongside hands-on experiments in the Yong-Su Jin Lab at UIUC.",
     "email": "wjdgnswkd61@gmail.com",
     "emails": [
       "wjdgnswkd61@gmail.com",
@@ -24,7 +24,7 @@
     },
     {
       "title": "Microbiome & metabolism",
-      "summary": "Studying microbial metabolism through network reconstruction and dynamic flux balance analysis, complemented by hands-on experiments with Segatella copri."
+      "summary": "Studying microbial metabolism through network reconstruction and dynamic flux balance analysis, complemented by hands-on experiments with the anaerobic microbe Segatella copri."
     },
     {
       "title": "Collective & information dynamics",
@@ -35,7 +35,7 @@
     {
       "period": "2025–present",
       "title": "Constraint based metabolic model of Segatella copri",
-      "summary": "Reconstructing a constraint-based metabolic model of Segatella copri, alongside hands-on microbial cultivation, HPLC analysis, and PCR in the Yong-Su Jin Lab at UIUC.",
+      "summary": "Reconstructing a constraint-based metabolic model of Segatella copri, alongside hands-on anaerobic cultivation, HPLC analysis, and PCR in the Yong-Su Jin Lab at UIUC.",
       "tag": "Modeling & experiments"
     },
     {
@@ -118,7 +118,7 @@
     {
       "period": "Aug. 15, 2026–present",
       "title": "Experimental research — Yong-Su Jin Lab",
-      "detail": "University of Illinois Urbana-Champaign (UIUC). Conducting hands-on research on Segatella copri, including microbial cultivation, high-performance liquid chromatography (HPLC), and PCR. Scheduled through Jan. 8, 2027."
+      "detail": "University of Illinois Urbana-Champaign (UIUC). Conducting hands-on research on the anaerobic microbe Segatella copri, including cultivation under anaerobic conditions, high-performance liquid chromatography (HPLC), and PCR. Scheduled through Jan. 8, 2027."
     },
     {
       "period": "Mar. 2021–present",
@@ -154,7 +154,7 @@
       "title": "Research overview",
       "category": "about",
       "keywords": ["Junghun Chae", "J. Chae", "research", "physics", "computational biology", "dynamical systems", "연구", "물리학", "계산생물학", "동역학"],
-      "text": "Junghun Chae is a physics M.S.–Ph.D. student at Ulsan National Institute of Science and Technology (UNIST). His work connects quantitative models, biological mechanisms, and large-scale data to understand the behavior and dynamics of complex systems—particularly biological systems. His CV documents research in biochemical kinetics, circadian dynamics, microbiome and metabolic-network modeling, collective-agent dynamics, biological information processing, and large-scale bibliometric analysis. He also conducts hands-on experiments on Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC), including microbial cultivation, HPLC analysis, and PCR. This experimental research began on August 15, 2026 and is scheduled through January 8, 2027."
+      "text": "Junghun Chae is a physics M.S.–Ph.D. student at Ulsan National Institute of Science and Technology (UNIST). His work connects quantitative models, biological mechanisms, and large-scale data to understand the behavior and dynamics of complex systems—particularly biological systems. His CV documents research in biochemical kinetics, circadian dynamics, microbiome and metabolic-network modeling, collective-agent dynamics, biological information processing, and large-scale bibliometric analysis. He also conducts hands-on experiments on the anaerobic microbe Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC), including anaerobic cultivation, HPLC analysis, and PCR. This experimental research began on August 15, 2026 and is scheduled through January 8, 2027."
     },
     {
       "id": "education-001",
@@ -216,8 +216,8 @@
       "id": "project-metabolic-network-001",
       "title": "Constraint based metabolic model of Segatella copri",
       "category": "project",
-      "keywords": ["Segatella copri", "metabolic network", "reconstruction", "metabolism", "microbiome", "UIUC", "Yong-Su Jin", "culture", "cultivation", "HPLC", "PCR", "experiments", "2025", "대사 네트워크", "장내 미생물", "실험", "배양"],
-      "text": "The CV lists “High-profile reconstruction of metabolic network of Segatella Copri” as an ongoing project beginning in 2025. The modeling advisors are Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Alongside this modeling work, Junghun Chae personally conducts experiments on Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC), including microbial cultivation, HPLC analysis, and PCR. The experimental research began on August 15, 2026 and is scheduled through January 8, 2027. No experimental results or completed validation of the model have been specified."
+      "keywords": ["Segatella copri", "metabolic network", "reconstruction", "metabolism", "microbiome", "UIUC", "Yong-Su Jin", "anaerobic", "anaerobe", "culture", "cultivation", "HPLC", "PCR", "experiments", "2025", "대사 네트워크", "장내 미생물", "혐기성", "혐기", "실험", "배양"],
+      "text": "The CV lists “High-profile reconstruction of metabolic network of Segatella Copri” as an ongoing project beginning in 2025. The modeling advisors are Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Alongside this modeling work, Junghun Chae personally conducts experiments on the anaerobic microbe Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC), including cultivation under anaerobic conditions, HPLC analysis, and PCR. The experimental research began on August 15, 2026 and is scheduled through January 8, 2027. No experimental results or completed validation of the model have been specified."
     },
     {
       "id": "project-vicsek-001",
@@ -265,8 +265,8 @@
       "id": "experience-uiuc-001",
       "title": "Hands-on experimental research in the Yong-Su Jin Lab at UIUC",
       "category": "experience",
-      "keywords": ["UIUC", "Illinois", "Urbana Champaign", "Yong-Su Jin", "lab", "laboratory", "Segatella copri", "experimental experience", "wet lab", "hands-on", "culture", "cultivation", "HPLC", "high performance liquid chromatography", "PCR", "2026", "2027", "실험", "경험", "실험실", "배양", "진용수", "일리노이"],
-      "text": "Junghun Chae reports hands-on experimental research on Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC). He personally performs microbial cultivation, high-performance liquid chromatography (HPLC), and PCR experiments. This experience complements his computational metabolic-modeling work. The research began on August 15, 2026 and is scheduled to end on January 8, 2027. As of September 23, 2026, the work is ongoing; the January 8, 2027 end date is planned, not a completed appointment. No formal appointment title, additional experimental techniques, or experimental results have been specified."
+      "keywords": ["UIUC", "Illinois", "Urbana Champaign", "Yong-Su Jin", "lab", "laboratory", "Segatella copri", "experimental experience", "wet lab", "hands-on", "anaerobic", "anaerobe", "culture", "cultivation", "HPLC", "high performance liquid chromatography", "PCR", "2026", "2027", "혐기성", "혐기", "실험", "경험", "실험실", "배양", "진용수", "일리노이"],
+      "text": "Junghun Chae reports hands-on experimental research on the anaerobic microbe Segatella copri in the Yong-Su Jin Lab at the University of Illinois Urbana-Champaign (UIUC). He personally performs cultivation under anaerobic conditions, high-performance liquid chromatography (HPLC), and PCR experiments. This experience complements his computational metabolic-modeling work. The research began on August 15, 2026 and is scheduled to end on January 8, 2027. As of September 23, 2026, the work is ongoing; the January 8, 2027 end date is planned, not a completed appointment. No formal appointment title, additional experimental techniques, or experimental results have been specified."
     },
     {
       "id": "technical-001",
