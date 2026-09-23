@@ -36,7 +36,7 @@ GitHub에 코드를 보관하고, Cloudflare 하나에서 홈페이지와 AI res
 │   └── config.js          # /api/chat 사용
 ├── data/
 │   ├── knowledge.json     # 공개 홈페이지와 AI 데이터
-│   └── raw/CV_Chae.pdf    # 로컬 원본, 배포에서 제외
+│   └── raw/CV_Chae.pdf    # 공개 CV 원본
 └── cloudflare-worker/
     ├── scripts/
     │   └── prepare-assets.mjs  # 공개 파일만 선별 복사
@@ -70,7 +70,7 @@ git remote add origin https://github.com/YOUR-USERNAME/junghun-chae-research-sit
 git push -u origin main
 ```
 
-`.gitignore`가 개인정보가 포함된 `data/raw/`와 로컬 생성 파일을 Git에서 제외합니다. `git status`에 `data/raw/CV_Chae.pdf`가 나타나지 않는지 확인한 후 push하세요.
+원본 CV는 Git에 포함되며 홈페이지의 CV 링크로 공개됩니다. `.gitignore`는 로컬 생성 파일과 개발 도구 파일만 제외합니다.
 
 ## 2. Cloudflare에 GitHub 연결
 
@@ -160,18 +160,13 @@ git push
 
 ## 6. CV와 개인정보
 
-원본 `data/raw/CV_Chae.pdf`에는 전화번호와 우편 주소가 포함되어 있습니다. `npm run dev`, `npm run check`, `npm run deploy`를 실행하면 `scripts/prepare-assets.mjs`가 공개 가능한 파일만 `cloudflare-worker/public/`에 복사합니다. `data/raw/`는 복사 대상이 아니므로 Cloudflare에 업로드되지 않습니다.
-
-공개용 CV를 연결하려면:
-
-1. 전화번호와 우편 주소를 제거한 PDF를 `public-cv/Junghun_Chae_CV.pdf`처럼 공개 가능한 위치에 둡니다.
-2. `data/knowledge.json`의 `profile.links.cv`에 경로를 입력합니다.
+`data/raw/CV_Chae.pdf`는 Git 저장소에 포함되고, 배포 시 `cv/Junghun_Chae_CV.pdf`로 복사됩니다. 홈페이지의 CV 버튼은 다음 경로에 연결되어 있습니다.
 
 ```json
-"cv": "public-cv/Junghun_Chae_CV.pdf"
+"cv": "/cv/Junghun_Chae_CV.pdf"
 ```
 
-현재는 안전을 위해 CV 버튼이 숨겨져 있습니다.
+이 PDF에 들어 있는 전화번호와 우편 주소도 공개 웹에서 열람할 수 있습니다. 공개 범위를 바꾸려면 CV PDF를 교체한 뒤 다시 commit하고 push하면 됩니다.
 
 ## 7. Workers AI 설정
 

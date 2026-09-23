@@ -1,6 +1,3 @@
-# Private source material — never publish or commit
-data/raw/
-
 # Generated Cloudflare assets and local tooling
 cloudflare-worker/public/
 cloudflare-worker/node_modules/

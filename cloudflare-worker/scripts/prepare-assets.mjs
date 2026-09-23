@@ -12,6 +12,7 @@ const publicSources = [
   ["css", "css"],
   ["js", "js"],
   ["data/knowledge.json", "data/knowledge.json"],
+  ["data/raw/CV_Chae.pdf", "cv/Junghun_Chae_CV.pdf"],
 ];
 
 await rm(publicDirectory, { recursive: true, force: true });
@@ -31,7 +32,7 @@ try {
     recursive: true,
   });
 } catch {
-  // A public CV is optional. The private data/raw directory is never copied.
+  // Additional public documents are optional.
 }
 
-console.log("Prepared Cloudflare public assets (private data/raw files were not copied).");
+console.log("Prepared Cloudflare public assets, including the public CV.");
