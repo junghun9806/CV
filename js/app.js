@@ -88,6 +88,7 @@
       const article = document.createElement("article");
       const title = document.createElement("h3");
       const citation = document.createElement("p");
+      citation.className = "publication-authors";
       title.textContent = item.title;
       const authorList = Array.isArray(item.authorList) && item.authorList.length
         ? item.authorList
@@ -110,8 +111,14 @@
         }
       });
       const publicationDetail = [item.venue, item.year].filter(Boolean).join(" · ");
-      if (publicationDetail) citation.append(document.createTextNode(` · ${publicationDetail}`));
       article.append(title, citation);
+      if (publicationDetail) {
+        const meta = document.createElement("p");
+        meta.className = "publication-meta";
+        if (item.venue === "Under review") meta.classList.add("is-review");
+        meta.textContent = publicationDetail;
+        article.append(meta);
+      }
       if (item.url) {
         const link = document.createElement("a");
         link.href = safeUrl(item.url);
@@ -184,13 +191,32 @@
   }
 
   const root = document.documentElement;
-  const savedTheme = localStorage.getItem("jhc-theme");
-  if (savedTheme === "dark" || savedTheme === "light") root.dataset.theme = savedTheme;
-  document.querySelector(".theme-toggle")?.addEventListener("click", () => {
+  const themeToggle = document.querySelector(".theme-toggle");
+  const updateThemeButton = () => {
+    const dark = root.dataset.theme === "dark";
+    themeToggle?.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+    themeToggle?.setAttribute("aria-pressed", String(dark));
+  };
+  try {
+    const savedTheme = localStorage.getItem("jhc-theme");
+    if (savedTheme === "dark" || savedTheme === "light") root.dataset.theme = savedTheme;
+  } catch { /* Storage may be unavailable in private or local-file contexts. */ }
+  updateThemeButton();
+  themeToggle?.addEventListener("click", () => {
     const next = root.dataset.theme === "dark" ? "light" : "dark";
     root.dataset.theme = next;
-    localStorage.setItem("jhc-theme", next);
+    updateThemeButton();
+    try { localStorage.setItem("jhc-theme", next); } catch { /* The theme still works for this visit. */ }
   });
+  const updateNavigation = () => {
+    document.querySelectorAll(".main-nav a").forEach((link) => {
+      if (link.hash === window.location.hash) link.setAttribute("aria-current", "location");
+      else link.removeAttribute("aria-current");
+    });
+  };
+  window.addEventListener("hashchange", updateNavigation);
+  updateNavigation();
   document.querySelector("#current-year").textContent = String(new Date().getFullYear());
-  loadKnowledge();
+  if (window.location.protocol === "file:") applyLink("cv", "data/raw/CV_Chae.pdf");
+  else loadKnowledge();
 })();

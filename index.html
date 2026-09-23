@@ -12,12 +12,12 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091421'/%3E%3Cpath d='M17 18h8v22c0 4 2 6 6 6 3 0 6-2 6-7V18h10v22c0 10-7 15-16 15-9 0-14-5-14-15V18Z' fill='%23f5b942'/%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%224%22%20fill%3D%22%23faf9f6%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2244%22%20text-anchor%3D%22middle%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2237%22%20fill%3D%22%23375e4e%22%3EJC%3C%2Ftext%3E%3C%2Fsvg%3E"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -28,11 +28,13 @@
       <a class="wordmark" href="#top" aria-label="Junghun Chae, home">JC</a>
       <nav class="main-nav" aria-label="Primary navigation">
         <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
+        <a href="#ask">Ask about</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="theme-toggle" type="button" aria-label="Switch color theme">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
         <span aria-hidden="true">◐</span>
       </button>
     </header>
@@ -50,64 +52,14 @@
           <div class="hero-actions" aria-label="Profile links">
             <a class="button primary" href="#research">Explore research</a>
             <a class="button secondary" href="#publications">Publications</a>
-            <a class="text-link" data-link="cv" href="#" hidden>CV <span aria-hidden="true">↗</span></a>
+            <a class="text-link" data-link="cv" href="cv/Junghun_Chae_CV.pdf">CV <span aria-hidden="true">↗</span></a>
           </div>
         </div>
         <aside class="research-note" aria-label="Research focus">
-          <div class="orbit-mark" aria-hidden="true">
-            <span></span><span></span><span></span>
-          </div>
           <p>Current focus</p>
           <strong data-profile="currentFocus">Metabolic networks and systems biology</strong>
           <small data-profile="currentFocusDetail">Current projects include constraint-based metabolic modeling of Segatella copri.</small>
         </aside>
-      </section>
-
-      <section class="ask-section" id="ask" aria-labelledby="ask-title">
-        <div class="ask-heading">
-          <div>
-            <p class="eyebrow amber">Knowledge-grounded AI</p>
-            <h2 id="ask-title">Ask about</h2>
-          </div>
-          <p>Answers use only the material published on this website.</p>
-        </div>
-
-        <div class="suggestions" id="suggestions" aria-label="Suggested questions">
-          <button type="button">What does Junghun work on?</button>
-          <button type="button">Explain his Michaelis–Menten research.</button>
-          <button type="button">Summarize his research for a non-specialist.</button>
-          <button type="button">Which projects use metabolic modeling?</button>
-        </div>
-
-        <div class="chat-shell">
-          <div class="chat-status">
-            <span class="status-mark" aria-hidden="true"></span>
-            <span>Research assistant</span>
-            <span class="grounded-label">Grounded in site content</span>
-          </div>
-          <div class="messages" aria-live="polite" aria-label="Conversation">
-            <article class="message assistant-message">
-              <span class="message-label">AI</span>
-              <div>
-                <p>
-                  Hello — ask me about Junghun’s research, projects, publications, or experience.
-                  If the answer is not in this site’s knowledge base, I’ll say so.
-                </p>
-              </div>
-            </article>
-          </div>
-          <form class="composer" aria-label="Ask a research question">
-            <label class="sr-only" for="chat-input">Your question</label>
-            <textarea
-              id="chat-input"
-              rows="1"
-              maxlength="800"
-              placeholder="Ask a question about the research…"
-            ></textarea>
-            <button type="submit">Send <span aria-hidden="true">↗</span></button>
-          </form>
-          <p class="composer-note">Enter to send · Shift+Enter for a new line</p>
-        </div>
       </section>
 
       <section class="content-section" id="research" aria-labelledby="research-title">
@@ -182,27 +134,33 @@
           <div class="publication-list" id="publication-list">
             <article>
               <h3>Warning signals for the long-term innovative potential of genetic research based on 20 million papers and patents</h3>
-              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, W. Kim<sup>†</sup>, W. Jung<sup>†</sup>, D. Jeong<sup>†</sup>, R. Lim<sup>†</sup>, M. Chamlagain, G. Jung, et al. · Under review</p>
+              <p class="publication-authors"><strong class="self-author">J. Chae</strong><sup aria-label="co-first author">†</sup>, W. Kim<sup aria-label="co-first author">†</sup>, W. Jung<sup aria-label="co-first author">†</sup>, D. Jeong<sup aria-label="co-first author">†</sup>, R. Lim<sup aria-label="co-first author">†</sup>, M. Chamlagain, G. Jung, et al.</p>
+              <p class="publication-meta is-review">Under review</p>
             </article>
             <article>
               <h3>Effective time delay as a local bandwidth measure in biochemical networks</h3>
-              <p><strong class="self-author">J. Chae</strong> and C.-M. Ghim · Under review</p>
+              <p class="publication-authors"><strong class="self-author">J. Chae</strong> and C.-M. Ghim</p>
+              <p class="publication-meta is-review">Under review</p>
             </article>
             <article>
-              <h3>Enlightening the blind spot of the Michaelis–Menten rate law</h3>
-              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, R. Lim<sup>†</sup>, T. L. P. Martin<sup>†</sup>, C.-M. Ghim, P.-J. Kim · Journal of Theoretical Biology · 2025</p>
+              <h3>Enlightening the blind spot of the Michaelis–Menten rate law: The role of relaxation dynamics in molecular complex formation</h3>
+              <p class="publication-authors"><strong class="self-author">J. Chae</strong><sup aria-label="co-first author">†</sup>, R. Lim<sup aria-label="co-first author">†</sup>, T. L. P. Martin<sup aria-label="co-first author">†</sup>, C.-M. Ghim, P.-J. Kim</p>
+              <p class="publication-meta">Journal of Theoretical Biology 597, 111989 · 2025</p>
             </article>
             <article>
               <h3>Generalized Michaelis–Menten Rate Law with time-varying molecular concentrations</h3>
-              <p>R. Lim<sup>†</sup>, T. L. P. Martin<sup>†</sup>, <strong class="self-author">J. Chae</strong><sup>†</sup>, W. Kim, C.-M. Ghim, P.-J. Kim · PLOS Computational Biology · 2023</p>
+              <p class="publication-authors">R. Lim<sup aria-label="co-first author">†</sup>, T. L. P. Martin<sup aria-label="co-first author">†</sup>, <strong class="self-author">J. Chae</strong><sup aria-label="co-first author">†</sup>, W. Kim, C.-M. Ghim, P.-J. Kim</p>
+              <p class="publication-meta">PLOS Computational Biology 19(12), e1011711 · 2023</p>
             </article>
             <article>
               <h3>Backward simulation for inferring hidden biomolecular kinetic profiles</h3>
-              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, R. Lim<sup>†</sup>, C.-M. Ghim, P.-J. Kim · STAR Protocols · 2021</p>
+              <p class="publication-authors"><strong class="self-author">J. Chae</strong><sup aria-label="co-first author">†</sup>, R. Lim<sup aria-label="co-first author">†</sup>, C.-M. Ghim, P.-J. Kim</p>
+              <p class="publication-meta">STAR Protocols 2(4), 100958 · 2021</p>
             </article>
             <article>
               <h3>Cost-effective circadian mechanism: rhythmic degradation of circadian proteins spontaneously emerges without rhythmic post-translational regulation</h3>
-              <p>R. Lim<sup>†</sup>, <strong class="self-author">J. Chae</strong><sup>†</sup>, D. E. Somers, C.-M. Ghim, P.-J. Kim · iScience · 2021</p>
+              <p class="publication-authors">R. Lim<sup aria-label="co-first author">†</sup>, <strong class="self-author">J. Chae</strong><sup aria-label="co-first author">†</sup>, D. E. Somers, C.-M. Ghim, P.-J. Kim</p>
+              <p class="publication-meta">iScience 24, 102726 · 2021</p>
             </article>
             <p class="publication-note">† Co-first author</p>
           </div>
@@ -216,21 +174,72 @@
           <h2 id="experience-title">Education &amp; experience</h2>
           <div class="timeline" id="experience-list">
             <article>
-              <span>2021–present</span>
+              <span>Mar. 2021–present</span>
               <div><h3>M.S.–Ph.D. in Physics</h3><p>Ulsan National Institute of Science and Technology (UNIST), Korea.</p></div>
             </article>
             <article>
-              <span>2017–2021</span>
+              <span>Mar. 2017–Feb. 2021</span>
               <div><h3>B.S. in Physics (Minor: Computer Science)</h3><p>Ulsan National Institute of Science and Technology (UNIST), Korea.</p></div>
             </article>
+            <article>
+              <span>Summer 2021</span>
+              <div><h3>Research Assistant</h3><p>Hong Kong Baptist University, April to September 2021.</p></div>
+            </article>
+            <article>
+              <span>2019–2025</span>
+              <div><h3>Teaching Assistant</h3><p>Teaching experience at UNIST in Network Science, Classical Mechanics, Network Science for Complex Systems, and History of Science and Technology.</p></div>
+            </article>
           </div>
+        </div>
+      </section>
+      <section class="ask-section" id="ask" aria-labelledby="ask-title">
+        <div class="ask-heading">
+          <div>
+            <p class="eyebrow">Knowledge-grounded AI</p>
+            <h2 id="ask-title">Ask about</h2>
+          </div>
+          <p>Answers use only the material published on this website.</p>
+        </div>
+
+        <div class="suggestions" id="suggestions" aria-label="Suggested questions">
+          <button type="button">What does Junghun work on?</button>
+          <button type="button">Explain his Michaelis–Menten research.</button>
+          <button type="button">Summarize his research for a non-specialist.</button>
+          <button type="button">Which projects use metabolic modeling?</button>
+        </div>
+
+        <div class="chat-shell">
+          <div class="chat-status">
+            <span class="status-mark" aria-hidden="true"></span>
+            <span>Research assistant</span>
+            <span class="grounded-label">Grounded in site content</span>
+          </div>
+          <div class="messages" aria-live="polite" aria-label="Conversation">
+            <article class="message assistant-message">
+              <span class="message-label">AI</span>
+              <div>
+                <p>Hello — ask me about Junghun’s research, projects, publications, or experience. If the answer is not in this site’s knowledge base, I’ll say so.</p>
+              </div>
+            </article>
+          </div>
+          <form class="composer" aria-label="Ask a question">
+            <label class="sr-only" for="chat-input">Your question</label>
+            <textarea
+              id="chat-input"
+              rows="1"
+              maxlength="800"
+              placeholder="Ask a question…"
+            ></textarea>
+            <button type="submit">Send <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="composer-note">Enter to send · Shift+Enter for a new line</p>
         </div>
       </section>
     </main>
 
     <footer id="contact">
       <div>
-        <p class="eyebrow amber">Contact</p>
+        <p class="eyebrow">Contact</p>
         <h2>Let’s connect!</h2>
         <p class="footer-emails" data-profile-emails>
           <span>E-mail:</span>
@@ -239,12 +248,15 @@
         </p>
       </div>
       <div class="footer-links">
-        <a data-link="cv" href="#" hidden>CV <span aria-hidden="true">↗</span></a>
-        <a data-link="github" href="#">GitHub <span aria-hidden="true">↗</span></a>
-        <a data-link="scholar" href="#">Google Scholar <span aria-hidden="true">↗</span></a>
-        <a data-link="orcid" href="#">ORCID <span aria-hidden="true">↗</span></a>
+        <a data-link="cv" href="cv/Junghun_Chae_CV.pdf">CV <span aria-hidden="true">↗</span></a>
+        <a data-link="github" href="#" hidden>GitHub <span aria-hidden="true">↗</span></a>
+        <a data-link="scholar" href="https://scholar.google.com/citations?user=r1rxOA0AAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a data-link="orcid" href="https://orcid.org/0000-0002-3498-8921">ORCID <span aria-hidden="true">↗</span></a>
       </div>
-      <p class="footer-note">© <span id="current-year">2026</span> <span data-profile="name">Junghun Chae</span></p>
+      <div class="footer-note">
+        <p>© <span id="current-year">2026</span> <span data-profile="name">Junghun Chae</span></p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
     </footer>
     <script src="js/config.js"></script>
     <script src="js/app.js"></script>

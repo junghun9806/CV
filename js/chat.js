@@ -34,6 +34,7 @@
 
   const setBusy = (value) => {
     busy = value;
+    messages.setAttribute("aria-busy", String(value));
     input.disabled = value;
     submit.disabled = value;
     suggestions.querySelectorAll("button").forEach((button) => { button.disabled = value; });
@@ -101,7 +102,7 @@
   });
   input?.addEventListener("input", resizeInput);
   input?.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" && !event.shiftKey) {
+    if (event.key === "Enter" && !event.shiftKey && !event.isComposing) {
       event.preventDefault();
       form.requestSubmit();
     }
