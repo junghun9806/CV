@@ -59,7 +59,6 @@ button { color: inherit; }
   letter-spacing: -0.04em;
   text-decoration: none;
 }
-.wordmark span { color: #d48800; }
 .main-nav { display: flex; gap: clamp(1rem, 3vw, 2.4rem); }
 .main-nav a {
   color: var(--muted);

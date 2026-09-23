@@ -34,7 +34,7 @@
   "projects": [
     {
       "period": "2025–present",
-      "title": "Metabolic network of Segatella Copri",
+      "title": "Constraint based metabolic model of Segatella copri",
       "summary": "High-profile reconstruction of the metabolic network of Segatella Copri.",
       "tag": "Metabolic modeling"
     },
@@ -46,7 +46,7 @@
     },
     {
       "period": "2023–2024",
-      "title": "Genetic research and innovation",
+      "title": "Innovation in genetic research",
       "summary": "A bibliometric study of papers and patents using large-scale PubMed and PATSTAT data.",
       "tag": "Science of science"
     },
@@ -57,7 +57,7 @@
       "tag": "Biochemical kinetics"
     },
     {
-      "period": "2021",
+      "period": "2021–2027",
       "title": "Gut microbiome flux modeling",
       "summary": "Dynamic flux balance analysis applied to the mammalian gut microbiome.",
       "tag": "Computational biology"
@@ -193,7 +193,7 @@
     },
     {
       "id": "project-metabolic-network-001",
-      "title": "Metabolic network reconstruction of Segatella Copri",
+      "title": "Constraint based metabolic model of Segatella copri",
       "category": "project",
       "keywords": ["Segatella Copri", "metabolic network", "reconstruction", "metabolism", "microbiome", "2025", "대사 네트워크", "장내 미생물"],
       "text": "The CV lists “High-profile reconstruction of metabolic network of Segatella Copri” as an ongoing project beginning in 2025. The advisors are Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. No project result is stated in the CV."
@@ -230,8 +230,8 @@
       "id": "project-microbiome-001",
       "title": "Dynamic flux balance analysis of the gut microbiome",
       "category": "project",
-      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "mammalian", "microbiome dynamics", "dietary shifts", "2021", "미생물군", "대사 모델링"],
-      "text": "The CV lists a 2021 project applying dynamic flux balance analysis to the mammalian gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
+      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "mammalian", "microbiome dynamics", "dietary shifts", "2021", "2027", "미생물군", "대사 모델링"],
+      "text": "From 2021 to 2027, Junghun Chae worked on applying dynamic flux balance analysis to the mammalian gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
     },
     {
       "id": "project-circadian-001",
