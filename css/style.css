@@ -39,7 +39,7 @@ h3 { line-height: 1.35; letter-spacing: -0.015em; }
 
 /* A quiet, persistent index to the page. */
 .site-header { display: flex; align-items: center; gap: 2rem; min-height: 5rem; padding: 0.75rem max(var(--gutter), calc((100% - var(--measure)) / 2)); border-bottom: 1px solid var(--line); background: var(--paper); position: sticky; top: 0; z-index: 20; }
-.wordmark { margin-right: auto; font: 500 1.7rem/1 var(--serif); letter-spacing: -0.08em; text-decoration: none; }
+.wordmark { display: inline-flex; align-items: center; flex: 0 0 auto; min-height: 2.75rem; margin-right: auto; font: 500 1.2rem/1.2 var(--serif); letter-spacing: -0.025em; text-decoration: none; white-space: nowrap; }
 .main-nav { display: flex; align-items: center; gap: 1.5rem; }
 .main-nav a { padding: 0.4rem 0; color: var(--muted); font-size: 0.82rem; text-decoration: none; }
 .main-nav a:hover, .main-nav a[aria-current="location"] { color: var(--accent); text-decoration: underline; text-underline-offset: 0.5em; }
