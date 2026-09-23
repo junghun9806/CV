@@ -123,7 +123,7 @@
     });
     const note = document.createElement("p");
     note.className = "publication-note";
-    note.textContent = "† Co-first author · Junghun Chae is highlighted in bold.";
+    note.textContent = "† Co-first author";
     target.replaceChildren(...articles, note);
   };
 
