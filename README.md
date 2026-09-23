@@ -85,7 +85,10 @@ Production branch: main
 Root directory:  cloudflare-worker
 Build command:   비워 둠
 Deploy command:  npm run deploy
+Preview command: npx wrangler preview
 ```
+
+Deploy command 칸에 `npx wrangler preview`가 자동으로 들어가 있다면 `npm run deploy`로 바꾸세요. `npx wrangler preview`는 Preview command 칸에만 사용합니다.
 
 5. **Save and Deploy**를 누릅니다.
 
