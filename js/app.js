@@ -64,19 +64,35 @@
     if (!target || !items.length) return;
     target.replaceChildren(...items.map((item) => {
       const article = document.createElement("article");
-      const heading = document.createElement("div");
+      const copy = document.createElement("div");
       const year = document.createElement("span");
       const title = document.createElement("h3");
       const summary = document.createElement("p");
-      const tag = document.createElement("span");
+      copy.className = "project-copy";
       year.className = "project-year";
-      tag.className = "project-tag";
       year.textContent = item.period;
       title.textContent = item.title;
       summary.textContent = item.summary;
-      tag.textContent = item.tag;
-      heading.append(year, title);
-      article.append(heading, summary, tag);
+      copy.append(year, title, summary);
+      article.append(copy);
+      const methods = Array.isArray(item.methods)
+        ? item.methods.filter((method) => typeof method === "string" && method.trim())
+        : [];
+      if (methods.length) {
+        const panel = document.createElement("div");
+        const label = document.createElement("h4");
+        const list = document.createElement("ul");
+        panel.className = "project-methods";
+        label.textContent = "Methods & tools";
+        list.setAttribute("role", "list");
+        methods.forEach((method) => {
+          const entry = document.createElement("li");
+          entry.textContent = method;
+          list.append(entry);
+        });
+        panel.append(label, list);
+        article.append(panel);
+      }
       return article;
     }));
   };

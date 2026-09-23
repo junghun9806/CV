@@ -36,31 +36,31 @@
       "period": "2025–present",
       "title": "Constraint based metabolic model of Segatella copri",
       "summary": "Reconstructing a constraint-based metabolic model of Segatella copri, alongside hands-on anaerobic cultivation, HPLC analysis, and PCR in the Yong-Su Jin Lab at UIUC.",
-      "tag": "Modeling & experiments"
+      "methods": ["Constraint-based modeling", "Anaerobic cultivation", "HPLC", "PCR"]
     },
     {
       "period": "2021–Present",
       "title": "Gut microbiome flux modeling",
       "summary": "Dynamic flux balance analysis applied to the mammalian gut microbiome.",
-      "tag": "Computational biology"
+      "methods": ["Dynamic flux balance analysis", "Microbial community modeling"]
     },
     {
       "period": "2023–2026",
       "title": "Innovation in genetic research",
-      "summary": "A bibliometric study of papers and patents using large-scale PubMed and PATSTAT data.",
-      "tag": "Science of science"
+      "summary": "Studying innovation in genetic research through large-scale analysis of scientific papers and patents, using title-and-abstract embeddings to quantify semantic similarity within gene-specific document collections.",
+      "methods": ["Transformer-based NLP (PaECTER)", "Large-scale bibliometric analysis (PubMed / PATSTAT)"]
     },
     {
       "period": "2022–2026",
       "title": "Michaelis–Menten kinetics",
       "summary": "Research on relaxation dynamics, time-varying concentrations, and circadian-protein kinetics beyond standard assumptions.",
-      "tag": "Biochemical kinetics"
+      "methods": ["Kinetic modeling", "Relaxation dynamics"]
     },
     {
       "period": "2025",
       "title": "Game theory in the Vicsek model",
       "summary": "Studying game theory and multilevel selection in mobile-agent dynamics using GPU-based simulation.",
-      "tag": "Collective dynamics"
+      "methods": ["Game theory", "Multi-agent simulation", "GPU / CUDA"]
     }
   ],
   "publications": [
@@ -237,8 +237,8 @@
       "id": "project-bibliometric-001",
       "title": "Bibliometric analysis of genetic research",
       "category": "project",
-      "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "2023", "2024", "2025", "2026", "계량서지", "특허"],
-      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript based on 20 million papers and patents that is under review."
+      "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "PaECTER", "transformer", "NLP", "text embeddings", "cosine similarity", "semantic similarity", "2023", "2024", "2025", "2026", "계량서지", "특허", "자연어 처리", "임베딩", "코사인 유사도", "모델"],
+      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript based on 20 million papers and patents that is under review. The project also applied PaECTER, a citation-informed transformer, to encode paper and patent titles and abstracts. For each gene, the team computed pairwise cosine similarities within the paper collection and separately within the patent collection to quantify semantic similarity. This is an application of a pretrained NLP model; developing or fine-tuning PaECTER has not been reported."
     },
     {
       "id": "project-michaelis-001",

@@ -147,7 +147,7 @@ AI API:   https://junghun-chae-research-site.YOUR-SUBDOMAIN.workers.dev/api/chat
 
 - `profile`: 이름, 소개, 이메일, 외부 링크
 - `research`: 연구 관심사
-- `projects`: 프로젝트
+- `projects`: 프로젝트 (`period`, `title`, `summary`, `methods` 배열). `methods`는 오른쪽 Methods & tools 목록에 표시됩니다.
 - `publications`: 논문과 공동 제1저자
 - `experience`: 교육과 경력
 - `suggestedQuestions`: 추천 질문
