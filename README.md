@@ -29,6 +29,7 @@ GitHub에 코드를 보관하고, Cloudflare 하나에서 홈페이지와 AI res
 ```text
 .
 ├── index.html
+├── package.json           # Cloudflare가 저장소 루트에서 실행
 ├── css/style.css
 ├── js/
 │   ├── app.js
@@ -47,7 +48,6 @@ GitHub에 코드를 보관하고, Cloudflare 하나에서 홈페이지와 AI res
     │   ├── prompt.js
     │   ├── config.js
     │   └── providers/
-    ├── package.json
     └── wrangler.jsonc
 ```
 
@@ -82,7 +82,7 @@ git push -u origin main
 ```text
 Worker name:      junghun-chae-research-site
 Production branch: main
-Root directory:  cloudflare-worker
+Root directory:  비워 둠 (저장소 루트)
 Build command:   비워 둠
 Deploy command:  npm run deploy
 Preview command: npx wrangler preview
@@ -99,7 +99,7 @@ Deploy command 칸에 `npx wrangler preview`가 자동으로 들어가 있다면
 Cloudflare 환경과 가장 비슷하게 확인하려면 다음을 실행합니다.
 
 ```powershell
-cd C:\Users\wjdgn\Desktop\UIUC\WebPage\cloudflare-worker
+cd C:\Users\wjdgn\Desktop\UIUC\WebPage
 npm install
 npm run dev
 ```
@@ -208,7 +208,7 @@ model: "@cf/meta/llama-3.1-8b-instruct-fast"
 ## 9. 배포 전 확인
 
 ```powershell
-cd cloudflare-worker
+cd C:\Users\wjdgn\Desktop\UIUC\WebPage
 npm install
 npm run check
 ```
