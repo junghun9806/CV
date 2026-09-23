@@ -51,16 +51,16 @@
       "tag": "Science of science"
     },
     {
-      "period": "2025",
-      "title": "Game theory in the Vicsek model",
-      "summary": "Studying game theory and multilevel selection in mobile-agent dynamics using GPU-based simulation.",
-      "tag": "Collective dynamics"
-    },
-    {
       "period": "2022–2026",
       "title": "Michaelis–Menten kinetics",
       "summary": "Research on relaxation dynamics, time-varying concentrations, and circadian-protein kinetics beyond standard assumptions.",
       "tag": "Biochemical kinetics"
+    },
+    {
+      "period": "2025",
+      "title": "Game theory in the Vicsek model",
+      "summary": "Studying game theory and multilevel selection in mobile-agent dynamics using GPU-based simulation.",
+      "tag": "Collective dynamics"
     }
   ],
   "publications": [
