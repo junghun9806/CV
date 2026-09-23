@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Research, publications, and projects by Junghun Chae, with a knowledge-grounded AI research assistant."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <title>Junghun Chae — Research</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091421'/%3E%3Cpath d='M17 18h8v22c0 4 2 6 6 6 3 0 6-2 6-7V18h10v22c0 10-7 15-16 15-9 0-14-5-14-15V18Z' fill='%23f5b942'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Junghun Chae, home">JHC<span>.</span></a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Researcher · Physicist · Modeler</p>
+          <h1 id="hero-title" data-profile="name">Junghun Chae</h1>
+          <p class="disciplines" data-profile="disciplines">Physics · Computational Biology · Dynamical Systems</p>
+          <p class="intro" data-profile="introduction">
+            I study complex biological systems through quantitative modeling and data analysis, with work
+            spanning enzyme kinetics, circadian dynamics, microbiome metabolism, and collective behavior.
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="#research">Explore research</a>
+            <a class="button secondary" href="#publications">Publications</a>
+            <a class="text-link" data-link="cv" href="#" hidden>CV <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="research-note" aria-label="Research focus">
+          <div class="orbit-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <p>Current focus</p>
+          <strong data-profile="currentFocus">Metabolic networks and collective dynamics</strong>
+          <small data-profile="currentFocusDetail">Current projects include metabolic-network reconstruction for Segatella Copri and game theory in the Vicsek model.</small>
+        </aside>
+      </section>
+
+      <section class="ask-section" id="ask" aria-labelledby="ask-title">
+        <div class="ask-heading">
+          <div>
+            <p class="eyebrow amber">Knowledge-grounded AI</p>
+            <h2 id="ask-title">Ask about my research</h2>
+          </div>
+          <p>Answers use only the material published on this website.</p>
+        </div>
+
+        <div class="suggestions" id="suggestions" aria-label="Suggested questions">
+          <button type="button">What does Junghun work on?</button>
+          <button type="button">Explain his Michaelis–Menten research.</button>
+          <button type="button">Summarize his research for a non-specialist.</button>
+          <button type="button">Which projects use metabolic modeling?</button>
+        </div>
+
+        <div class="chat-shell">
+          <div class="chat-status">
+            <span class="status-mark" aria-hidden="true"></span>
+            <span>Research assistant</span>
+            <span class="grounded-label">Grounded in site content</span>
+          </div>
+          <div class="messages" aria-live="polite" aria-label="Conversation">
+            <article class="message assistant-message">
+              <span class="message-label">AI</span>
+              <div>
+                <p>
+                  Hello — ask me about Junghun’s research, projects, publications, or experience.
+                  If the answer is not in this site’s knowledge base, I’ll say so.
+                </p>
+              </div>
+            </article>
+          </div>
+          <form class="composer" aria-label="Ask a research question">
+            <label class="sr-only" for="chat-input">Your question</label>
+            <textarea
+              id="chat-input"
+              rows="1"
+              maxlength="800"
+              placeholder="Ask a question about the research…"
+            ></textarea>
+            <button type="submit">Send <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="composer-note">Enter to send · Shift+Enter for a new line</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="research" aria-labelledby="research-title">
+        <div class="section-number">01</div>
+        <div class="section-main">
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">Understanding dynamics across scales</h2>
+          <p class="section-lede">
+            My work connects quantitative models, biological mechanisms, and large-scale data to study
+            how complex systems change over time.
+          </p>
+          <div class="research-grid" id="research-list">
+            <article>
+              <span>01</span>
+              <h3>Biochemical dynamics</h3>
+              <p>Studying rate laws beyond standard steady-state assumptions, including relaxation dynamics.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Microbiome &amp; metabolism</h3>
+              <p>Modeling metabolic networks and microbial communities with quantitative methods.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Collective &amp; information dynamics</h3>
+              <p>Using multi-agent simulation, game theory, and large-scale data to study collective behavior.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-number">02</div>
+        <div class="section-main">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Projects</h2>
+          <div class="project-list" id="project-list">
+            <article>
+              <div><span class="project-year">2025–present</span><h3>Metabolic network of Segatella Copri</h3></div>
+              <p>High-profile reconstruction of the metabolic network of Segatella Copri.</p>
+              <span class="project-tag">Metabolic modeling</span>
+            </article>
+            <article>
+              <div><span class="project-year">2025</span><h3>Game theory in the Vicsek model</h3></div>
+              <p>Game theory and multilevel selection in mobile-agent dynamics.</p>
+              <span class="project-tag">Collective dynamics</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section publications" id="publications" aria-labelledby="publications-title">
+        <div class="section-number">03</div>
+        <div class="section-main">
+          <p class="eyebrow">Writing</p>
+          <h2 id="publications-title">Publications</h2>
+          <div class="publication-list" id="publication-list">
+            <article>
+              <h3>Warning signals for the long-term innovative potential of genetic research based on 20 million papers and patents</h3>
+              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, W. Kim<sup>†</sup>, W. Jung<sup>†</sup>, D. Jeong<sup>†</sup>, R. Lim<sup>†</sup>, M. Chamlagain, G. Jung, et al. · Under review</p>
+            </article>
+            <article>
+              <h3>Enlightening the blind spot of the Michaelis–Menten rate law</h3>
+              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, R. Lim<sup>†</sup>, T. L. P. Martin<sup>†</sup>, C.-M. Ghim, P.-J. Kim · Journal of Theoretical Biology · 2025</p>
+            </article>
+            <article>
+              <h3>Generalized Michaelis–Menten Rate Law with time-varying molecular concentrations</h3>
+              <p>R. Lim<sup>†</sup>, T. L. P. Martin<sup>†</sup>, <strong class="self-author">J. Chae</strong><sup>†</sup>, W. Kim, C.-M. Ghim, P.-J. Kim · PLOS Computational Biology · 2023</p>
+            </article>
+            <article>
+              <h3>Backward simulation for inferring hidden biomolecular kinetic profiles</h3>
+              <p><strong class="self-author">J. Chae</strong><sup>†</sup>, R. Lim<sup>†</sup>, C.-M. Ghim, P.-J. Kim · STAR Protocols · 2021</p>
+            </article>
+            <article>
+              <h3>Cost-effective circadian mechanism: rhythmic degradation of circadian proteins spontaneously emerges without rhythmic post-translational regulation</h3>
+              <p>R. Lim<sup>†</sup>, <strong class="self-author">J. Chae</strong><sup>†</sup>, D. E. Somers, C.-M. Ghim, P.-J. Kim · iScience · 2021</p>
+            </article>
+            <p class="publication-note">† Co-first author · Junghun Chae is highlighted in bold.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-number">04</div>
+        <div class="section-main">
+          <p class="eyebrow">Background</p>
+          <h2 id="experience-title">Education &amp; experience</h2>
+          <div class="timeline" id="experience-list">
+            <article>
+              <span>2021–present</span>
+              <div><h3>M.S.–Ph.D. in Physics</h3><p>Ulsan National Institute of Science and Technology (UNIST), Korea.</p></div>
+            </article>
+            <article>
+              <span>2017–2021</span>
+              <div><h3>B.S. in Physics</h3><p>Minor in Computer Science, Ulsan National Institute of Science and Technology (UNIST), Korea.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div>
+        <p class="eyebrow amber">Contact</p>
+        <h2>Let’s talk about research.</h2>
+      </div>
+      <div class="footer-links">
+        <a data-link="email" href="mailto:junghun98@unist.ac.kr">Email</a>
+        <a data-link="github" href="#">GitHub <span aria-hidden="true">↗</span></a>
+        <a data-link="scholar" href="#">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a data-link="orcid" href="#">ORCID <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="footer-note">© <span id="current-year">2026</span> <span data-profile="name">Junghun Chae</span></p>
+    </footer>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/chat.js"></script>
+  </body>
+</html>

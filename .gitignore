@@ -1,0 +1,22 @@
+# Private source material — never publish or commit
+data/raw/
+
+# Generated Cloudflare assets and local tooling
+cloudflare-worker/public/
+cloudflare-worker/node_modules/
+cloudflare-worker/.wrangler/
+cloudflare-worker/.wrangler-*/
+node_modules/
+.pnpm-store/
+
+# Local scratch files and secrets
+tmp/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
