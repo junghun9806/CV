@@ -270,7 +270,7 @@ footer {
   background: var(--night);
   color: white;
 }
-footer h2 { max-width: 45rem; margin: 0; }
+footer h2 { max-width: none; margin: 0; font-size: clamp(1.35rem, 3.2vw, 3rem); white-space: nowrap; }
 .footer-links { display: flex; flex-direction: column; align-items: flex-start; gap: 0.7rem; padding-top: 1rem; }
 .footer-links a { color: #dce4ea; font-weight: 600; text-underline-offset: 0.25rem; }
 .footer-emails { display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 0 0 0.45rem; color: #aebdca; line-height: 1.65; }
