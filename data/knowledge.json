@@ -39,28 +39,28 @@
       "tag": "Metabolic modeling"
     },
     {
+      "period": "2021–Present",
+      "title": "Gut microbiome flux modeling",
+      "summary": "Dynamic flux balance analysis applied to the mammalian gut microbiome.",
+      "tag": "Computational biology"
+    },
+    {
+      "period": "2023–2026",
+      "title": "Innovation in genetic research",
+      "summary": "A bibliometric study of papers and patents using large-scale PubMed and PATSTAT data.",
+      "tag": "Science of science"
+    },
+    {
       "period": "2025",
       "title": "Game theory in the Vicsek model",
       "summary": "Studying game theory and multilevel selection in mobile-agent dynamics using GPU-based simulation.",
       "tag": "Collective dynamics"
     },
     {
-      "period": "2023–2024",
-      "title": "Innovation in genetic research",
-      "summary": "A bibliometric study of papers and patents using large-scale PubMed and PATSTAT data.",
-      "tag": "Science of science"
-    },
-    {
-      "period": "2022–2024",
+      "period": "2022–2026",
       "title": "Michaelis–Menten kinetics",
       "summary": "Research on relaxation dynamics, time-varying concentrations, and circadian-protein kinetics beyond standard assumptions.",
       "tag": "Biochemical kinetics"
-    },
-    {
-      "period": "2021–2027",
-      "title": "Gut microbiome flux modeling",
-      "summary": "Dynamic flux balance analysis applied to the mammalian gut microbiome.",
-      "tag": "Computational biology"
     }
   ],
   "publications": [
@@ -216,22 +216,22 @@
       "id": "project-bibliometric-001",
       "title": "Bibliometric analysis of genetic research",
       "category": "project",
-      "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "2023", "2024", "계량서지", "특허"],
-      "text": "From 2023 to 2024, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript based on 20 million papers and patents that is under review."
+      "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "2023", "2024", "2025", "2026", "계량서지", "특허"],
+      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript based on 20 million papers and patents that is under review."
     },
     {
       "id": "project-michaelis-001",
       "title": "Michaelis–Menten kinetics and relaxation dynamics",
       "category": "project",
-      "keywords": ["Michaelis Menten", "enzyme kinetics", "relaxation dynamics", "time varying concentration", "effective rate law", "feedback control", "circadian", "효소 반응", "완화 동역학"],
-      "text": "From 2022 to 2024, Junghun Chae worked on Michaelis–Menten kinetics for circadian proteins, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Related publications examine time-varying molecular concentrations and the role of relaxation dynamics beyond standard Michaelis–Menten assumptions. Conference presentations from 2022 to 2024 addressed rate laws beyond steady-state or adiabatic approximations and applications to circadian dynamics and biological feedback control."
+      "keywords": ["Michaelis Menten", "enzyme kinetics", "relaxation dynamics", "time varying concentration", "effective rate law", "feedback control", "circadian", "2022", "2026", "효소 반응", "완화 동역학"],
+      "text": "From 2022 to 2026, Junghun Chae worked on Michaelis–Menten kinetics for circadian proteins, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Related publications examine time-varying molecular concentrations and the role of relaxation dynamics beyond standard Michaelis–Menten assumptions. Conference presentations from 2022 to 2024 addressed rate laws beyond steady-state or adiabatic approximations and applications to circadian dynamics and biological feedback control."
     },
     {
       "id": "project-microbiome-001",
       "title": "Dynamic flux balance analysis of the gut microbiome",
       "category": "project",
-      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "mammalian", "microbiome dynamics", "dietary shifts", "2021", "2027", "미생물군", "대사 모델링"],
-      "text": "From 2021 to 2027, Junghun Chae worked on applying dynamic flux balance analysis to the mammalian gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
+      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "mammalian", "microbiome dynamics", "dietary shifts", "2021", "present", "ongoing", "미생물군", "대사 모델링"],
+      "text": "Since 2021, Junghun Chae has worked on applying dynamic flux balance analysis to the mammalian gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The project is ongoing. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
     },
     {
       "id": "project-circadian-001",
