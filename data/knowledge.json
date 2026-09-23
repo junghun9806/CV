@@ -41,20 +41,20 @@
     {
       "period": "2021–Present",
       "title": "Gut microbiome flux modeling",
-      "summary": "Dynamic flux balance analysis applied to the mammalian gut microbiome.",
-      "methods": ["Dynamic flux balance analysis", "Microbial community modeling"]
+      "summary": "Dynamic flux balance analysis applied to the gut microbiome.",
+      "methods": ["Dynamic Flux Balance Analysis (dFBA)", "Microbial community modeling"]
     },
     {
       "period": "2023–2026",
       "title": "Innovation in genetic research",
-      "summary": "Studying innovation in genetic research through large-scale analysis of scientific papers and patents, using title-and-abstract embeddings to quantify semantic similarity within gene-specific document collections.",
+      "summary": "Studying innovation in genetic research through large-scale analysis of over 20 million papers and patents.",
       "methods": ["Transformer-based NLP (PaECTER)", "Large-scale bibliometric analysis (PubMed / PATSTAT)"]
     },
     {
       "period": "2022–2026",
       "title": "Michaelis–Menten kinetics",
       "summary": "Research on relaxation dynamics, time-varying concentrations, and circadian-protein kinetics beyond standard assumptions.",
-      "methods": ["Kinetic modeling", "Relaxation dynamics"]
+      "methods": ["Kinetic modeling, Relaxation dynamics", "Numerical computations (ODE, SDE, Gillespie, ⋯)"]
     },
     {
       "period": "2025",
@@ -116,9 +116,9 @@
   ],
   "experience": [
     {
-      "period": "Aug. 15, 2026–present",
+      "period": "Aug. 2026 to Jan. 2027",
       "title": "Experimental research — Yong-Su Jin Lab",
-      "detail": "University of Illinois Urbana-Champaign (UIUC). Conducting hands-on research on the anaerobic microbe Segatella copri, including cultivation under anaerobic conditions, high-performance liquid chromatography (HPLC), and PCR. Scheduled through Jan. 8, 2027."
+      "detail": "University of Illinois Urbana-Champaign (UIUC). Conducting hands-on research on the anaerobic microbe Segatella copri, including cultivation under anaerobic conditions, high-performance liquid chromatography (HPLC), and PCR. Scheduled through Jan. 2027."
     },
     {
       "period": "Mar. 2021–present",
@@ -238,21 +238,21 @@
       "title": "Bibliometric analysis of genetic research",
       "category": "project",
       "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "PaECTER", "transformer", "NLP", "text embeddings", "cosine similarity", "semantic similarity", "2023", "2024", "2025", "2026", "계량서지", "특허", "자연어 처리", "임베딩", "코사인 유사도", "모델"],
-      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript based on 20 million papers and patents that is under review. The project also applied PaECTER, a citation-informed transformer, to encode paper and patent titles and abstracts. For each gene, the team computed pairwise cosine similarities within the paper collection and separately within the patent collection to quantify semantic similarity. This is an application of a pretrained NLP model; developing or fine-tuning PaECTER has not been reported."
+      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript that is under review. The project analyzes over 20 million papers and patents. It also applied PaECTER, a citation-informed transformer, to encode paper and patent titles and abstracts. For each gene, the team computed pairwise cosine similarities within the paper collection and separately within the patent collection to quantify semantic similarity. This is an application of a pretrained NLP model; developing or fine-tuning PaECTER has not been reported."
     },
     {
       "id": "project-michaelis-001",
       "title": "Michaelis–Menten kinetics and relaxation dynamics",
       "category": "project",
-      "keywords": ["Michaelis Menten", "enzyme kinetics", "relaxation dynamics", "time varying concentration", "effective rate law", "feedback control", "circadian", "2022", "2026", "효소 반응", "완화 동역학"],
-      "text": "From 2022 to 2026, Junghun Chae worked on Michaelis–Menten kinetics for circadian proteins, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Related publications examine time-varying molecular concentrations and the role of relaxation dynamics beyond standard Michaelis–Menten assumptions. Conference presentations from 2022 to 2024 addressed rate laws beyond steady-state or adiabatic approximations and applications to circadian dynamics and biological feedback control."
+      "keywords": ["Michaelis Menten", "enzyme kinetics", "relaxation dynamics", "time varying concentration", "effective rate law", "feedback control", "circadian", "numerical computations", "ODE", "SDE", "Gillespie", "2022", "2026", "효소 반응", "완화 동역학", "수치계산"],
+      "text": "From 2022 to 2026, Junghun Chae worked on Michaelis–Menten kinetics for circadian proteins, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. Related publications examine time-varying molecular concentrations and the role of relaxation dynamics beyond standard Michaelis–Menten assumptions. Methods used in this project include kinetic modeling, relaxation dynamics, and numerical computations involving ODEs, SDEs, and the Gillespie algorithm. Conference presentations from 2022 to 2024 addressed rate laws beyond steady-state or adiabatic approximations and applications to circadian dynamics and biological feedback control."
     },
     {
       "id": "project-microbiome-001",
       "title": "Dynamic flux balance analysis of the gut microbiome",
       "category": "project",
-      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "mammalian", "microbiome dynamics", "dietary shifts", "2021", "present", "ongoing", "미생물군", "대사 모델링"],
-      "text": "Since 2021, Junghun Chae has worked on applying dynamic flux balance analysis to the mammalian gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The project is ongoing. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
+      "keywords": ["dynamic flux balance analysis", "dFBA", "gut microbiome", "microbiome dynamics", "dietary shifts", "2021", "present", "ongoing", "미생물군", "대사 모델링"],
+      "text": "Since 2021, Junghun Chae has worked on applying dynamic flux balance analysis to the gut microbiome, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The project is ongoing. A 2025 Korean Physical Society presentation was titled “Microbiome Dynamics under Dietary Shifts.” The CV does not state a publication from this project."
     },
     {
       "id": "project-circadian-001",
