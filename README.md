@@ -155,6 +155,8 @@ AI API:   https://junghun-chae-research-site.YOUR-SUBDOMAIN.workers.dev/api/chat
 
 변경 후 commit하고 push합니다.
 
+페이지 하단의 `Last updated`는 배포할 때 현재 Git 커밋의 날짜로 자동 갱신됩니다. 같은 커밋을 재배포하면 날짜는 유지됩니다. Git을 사용할 수 없는 환경에서는 `index.html`의 날짜를 그대로 표시합니다.
+
 ```powershell
 git add data/knowledge.json
 git commit -m "Update profile data"

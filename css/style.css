@@ -50,7 +50,6 @@ h3 { line-height: 1.35; letter-spacing: -0.015em; }
 .hero { width: min(var(--measure), calc(100% - 2 * var(--gutter))); margin: 0 auto; padding: clamp(4rem, 8vw, 7rem) 0 5rem; display: grid; grid-template-columns: minmax(0, 1fr) 16rem; align-items: center; gap: clamp(3rem, 7vw, 6rem); border-bottom: 1px solid var(--line); }
 .hero-copy { min-width: 0; }
 .eyebrow { margin-bottom: 0.9rem; font-size: 0.69rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); }
-.hero .eyebrow { margin-bottom: 1.4rem; }
 .disciplines { max-width: 39rem; margin-bottom: 1.4rem; color: var(--accent); font-size: 0.9rem; font-weight: 500; line-height: 1.8; }
 .intro { max-width: 38rem; margin-bottom: 0; color: var(--muted); font-size: 1.05rem; line-height: 1.85; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem 1.4rem; margin-top: 2rem; }
