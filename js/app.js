@@ -147,7 +147,11 @@
     });
     const note = document.createElement("p");
     note.className = "publication-note";
-    note.textContent = "† Co-first author";
+    const marker = document.createElement("span");
+    marker.className = "cofirst-marker";
+    marker.textContent = "†";
+    marker.setAttribute("aria-hidden", "true");
+    note.append(marker, document.createTextNode(" Co-first author"));
     target.replaceChildren(...articles, note);
   };
 
@@ -224,14 +228,41 @@
     updateThemeButton();
     try { localStorage.setItem("jhc-theme", next); } catch { /* The theme still works for this visit. */ }
   });
+  const header = document.querySelector(".site-header");
+  const navigationItems = [...document.querySelectorAll(".main-nav a")]
+    .map((link) => ({ link, section: document.getElementById(link.hash.slice(1)) }))
+    .filter(({ section }) => section);
+  let navigationFrame = 0;
   const updateNavigation = () => {
-    document.querySelectorAll(".main-nav a").forEach((link) => {
-      if (link.hash === window.location.hash) link.setAttribute("aria-current", "location");
+    navigationFrame = 0;
+    // Activate a section as its heading enters the reading area below the sticky header.
+    const readingLine = (header?.getBoundingClientRect().bottom || 0) + 80;
+    let activeLink = null;
+    navigationItems.forEach(({ link, section }) => {
+      if (section.getBoundingClientRect().top <= readingLine) activeLink = link;
+    });
+    // A short final section cannot always reach the reading line.
+    const atBottom = window.scrollY + window.innerHeight >= root.scrollHeight - 2;
+    if (atBottom && navigationItems.length) activeLink = navigationItems.at(-1).link;
+    navigationItems.forEach(({ link }) => {
+      if (link === activeLink) link.setAttribute("aria-current", "location");
       else link.removeAttribute("aria-current");
     });
   };
-  window.addEventListener("hashchange", updateNavigation);
-  updateNavigation();
+  const scheduleNavigationUpdate = () => {
+    if (!navigationFrame) navigationFrame = requestAnimationFrame(updateNavigation);
+  };
+  window.addEventListener("scroll", scheduleNavigationUpdate, { passive: true });
+  window.addEventListener("resize", scheduleNavigationUpdate);
+  window.addEventListener("hashchange", scheduleNavigationUpdate);
+  window.addEventListener("load", scheduleNavigationUpdate);
+  window.addEventListener("knowledge-ready", scheduleNavigationUpdate);
+  if (typeof ResizeObserver !== "undefined") {
+    const layoutObserver = new ResizeObserver(scheduleNavigationUpdate);
+    layoutObserver.observe(document.body);
+    if (header) layoutObserver.observe(header);
+  }
+  scheduleNavigationUpdate();
   document.querySelector("#current-year").textContent = String(new Date().getFullYear());
   if (window.location.protocol === "file:") applyLink("cv", "data/raw/CV_Chae.pdf");
   else loadKnowledge();
