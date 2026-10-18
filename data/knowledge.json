@@ -65,21 +65,21 @@
   ],
   "publications": [
     {
-      "title": "Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents",
-      "authors": "J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, G. Jung, et al.",
-      "authorList": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim", "M. Chamlagain", "G. Jung", "et al."],
-      "coFirstAuthors": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim"],
-      "venue": "EPJ Data Science",
-      "status": "Accepted",
-      "year": ""
-    },
-    {
       "title": "Effective time delay as a local bandwidth measure in biochemical networks",
       "authors": "J. Chae and C.-M. Ghim",
       "authorList": ["J. Chae", "C.-M. Ghim"],
       "authorSeparator": " and ",
       "coFirstAuthors": [],
       "venue": "Under review",
+      "year": ""
+    },
+    {
+      "title": "Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents",
+      "authors": "J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, G. Jung, et al.",
+      "authorList": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim", "M. Chamlagain", "G. Jung", "et al."],
+      "coFirstAuthors": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim"],
+      "venue": "EPJ Data Science",
+      "status": "Accepted",
       "year": ""
     },
     {
