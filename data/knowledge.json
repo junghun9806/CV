@@ -65,7 +65,7 @@
   ],
   "publications": [
     {
-      "title": "Warning signals for the long-term innovative potential of genetic research based on 20 million papers and patents",
+      "title": "Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents",
       "authors": "J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, G. Jung, et al.",
       "authorList": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim", "M. Chamlagain", "G. Jung", "et al."],
       "coFirstAuthors": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim"],
@@ -200,10 +200,10 @@
     },
     {
       "id": "publication-under-review-001",
-      "title": "Warning signals for innovative genetic research",
+      "title": "Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents",
       "category": "publication",
-      "keywords": ["under review", "manuscript", "20 million papers patents", "genetic research", "innovation", "bibliometric", "심사 중", "유전 연구", "논문 특허"],
-      "text": "A manuscript titled “Warning signals for the long-term innovative potential of genetic research based on 20 million papers and patents” is listed in the CV as under review. The listed authors begin with J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, and G. Jung, followed by additional authors. The CV marks Chae, Kim, Jung, Jeong, and Lim as co-first authors. It must not be described as a published paper."
+      "keywords": ["under review", "manuscript", "scientific exploration", "industrial momentum", "20 million papers patents", "genetic research", "innovation", "bibliometric", "심사 중", "유전 연구", "논문 특허"],
+      "text": "A manuscript titled “Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents” is under review. The listed authors begin with J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, and G. Jung, followed by additional authors. The CV marks Chae, Kim, Jung, Jeong, and Lim as co-first authors. It must not be described as a published paper."
     },
     {
       "id": "publication-under-review-002",
