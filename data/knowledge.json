@@ -69,7 +69,8 @@
       "authors": "J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, G. Jung, et al.",
       "authorList": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim", "M. Chamlagain", "G. Jung", "et al."],
       "coFirstAuthors": ["J. Chae", "W. Kim", "W. Jung", "D. Jeong", "R. Lim"],
-      "venue": "Under review",
+      "venue": "EPJ Data Science",
+      "status": "Accepted",
       "year": ""
     },
     {
@@ -199,11 +200,11 @@
       "text": "Lim, R.; Chae, J.; Somers, D. E.; Ghim, C.-M.; and Kim, P.-J. published “Cost-effective circadian mechanism: rhythmic degradation of circadian proteins spontaneously emerges without rhythmic post-translational regulation” in iScience 24, 102726, in 2021. The CV marks Lim and Chae as co-first authors."
     },
     {
-      "id": "publication-under-review-001",
+      "id": "publication-epj-data-science-001",
       "title": "Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents",
       "category": "publication",
-      "keywords": ["under review", "manuscript", "scientific exploration", "industrial momentum", "20 million papers patents", "genetic research", "innovation", "bibliometric", "심사 중", "유전 연구", "논문 특허"],
-      "text": "A manuscript titled “Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents” is under review. The listed authors begin with J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, and G. Jung, followed by additional authors. The CV marks Chae, Kim, Jung, Jeong, and Lim as co-first authors. It must not be described as a published paper."
+      "keywords": ["accepted", "EPJ Data Science", "manuscript", "scientific exploration", "industrial momentum", "20 million papers patents", "genetic research", "innovation", "bibliometric", "게재 승인", "게재 확정", "유전 연구", "논문 특허"],
+      "text": "The manuscript “Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents” has been accepted for publication in EPJ Data Science. The listed authors begin with J. Chae, W. Kim, W. Jung, D. Jeong, R. Lim, M. Chamlagain, and G. Jung, followed by additional authors. The CV marks Chae, Kim, Jung, Jeong, and Lim as co-first authors. Its status is Accepted, not Under review. No final publication date, volume, issue, or DOI has been provided; it should be described as accepted for publication rather than already formally published."
     },
     {
       "id": "publication-under-review-002",
@@ -238,7 +239,7 @@
       "title": "Bibliometric analysis of genetic research",
       "category": "project",
       "keywords": ["bibliometric", "scientometric", "PubMed", "PATSTAT", "papers", "patents", "genetic research", "innovation", "PaECTER", "transformer", "NLP", "text embeddings", "cosine similarity", "semantic similarity", "2023", "2024", "2025", "2026", "계량서지", "특허", "자연어 처리", "임베딩", "코사인 유사도", "모델"],
-      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024 and a related manuscript that is under review. The project analyzes over 20 million papers and patents. It also applied PaECTER, a citation-informed transformer, to encode paper and patent titles and abstracts. For each gene, the team computed pairwise cosine similarities within the paper collection and separately within the patent collection to quantify semantic similarity. This is an application of a pretrained NLP model; developing or fine-tuning PaECTER has not been reported."
+      "text": "From 2023 to 2026, Junghun Chae worked on a gene bibliometric review of papers and patents, advised by Cheol-Min Ghim at UNIST and Pan-Jun Kim at Hong Kong Baptist University. The CV lists technical experience in big-data analysis using PubMed and PATSTAT data in 2024. The related manuscript, “Scientific exploration outlasts industrial momentum and sustains innovation in genetic research: survey of 20 million papers and patents,” has been accepted for publication in EPJ Data Science. The project analyzes over 20 million papers and patents. It also applied PaECTER, a citation-informed transformer, to encode paper and patent titles and abstracts. For each gene, the team computed pairwise cosine similarities within the paper collection and separately within the patent collection to quantify semantic similarity. This is an application of a pretrained NLP model; developing or fine-tuning PaECTER has not been reported."
     },
     {
       "id": "project-michaelis-001",

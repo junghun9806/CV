@@ -126,7 +126,7 @@
           citation.append(marker);
         }
       });
-      const publicationDetail = [item.venue, item.year].filter(Boolean).join(" · ");
+      const publicationDetail = [item.venue, item.status, item.year].filter(Boolean).join(" · ");
       article.append(title, citation);
       if (publicationDetail) {
         const meta = document.createElement("p");
