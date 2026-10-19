@@ -1,5 +1,7 @@
 # Junghun Chae — AI research homepage
 
+다른 사람이 **자신의 CV로 새 홈페이지를 만들도록 Codex에 요청할 문구**는 [CODEX_WEBSITE_PROMPT_TEMPLATE.md](CODEX_WEBSITE_PROMPT_TEMPLATE.md)를 참고하세요.
+
 GitHub에 코드를 보관하고, Cloudflare 하나에서 홈페이지와 AI research assistant를 함께 운영하는 정적 개인 연구자 홈페이지입니다.
 
 - 웹 호스팅: Cloudflare Workers Static Assets
